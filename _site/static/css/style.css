@@ -19,6 +19,9 @@ a {
 a:hover {
   color: #b99a54;
 }
+a:visited {
+  color: black;
+}
 img {
   max-width: 100%;
 }
