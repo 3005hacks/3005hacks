@@ -1,1 +1,10 @@
 name: "3005hacks"
+
+ftp_host: '3005hacks.com'
+ftp_dir: '/var/www/nyctender.com/public_html'
+ftp_passive: false
+
+# optional
+ftp_port: 22                  # default 21
+ftp_username: 'root'     # default read from stdin
+ftp_password: 'ayylmao101' # default read from stdin
