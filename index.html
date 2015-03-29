@@ -39,6 +39,7 @@ title: 3005hacks
         <ul>
           <a href="{{ person.twitter }}"><li><i class="fa fa-2x fa-twitter"></i></li></a>
           <a href="{{ person.linkedin }}"><li><i class="fa fa-2x fa-linkedin-square"></i></li></a>
+          <a href="{{ person.github }}"><li><i class="fa fa-2x fa-github"></i></li></a>
         </ul>
       </div>
       <img src="{{ person.image }}">
@@ -53,7 +54,7 @@ title: 3005hacks
   <div class="unit span-grid">
   {% for address in site.data.contact %}
     <h2 class="heading">Contact</h2>
-    <p>Shoot us an email at <a href="mailto:{{ address.email }}">{{ address.email }}</a>.</p>
+    <p>Shoot us an email at <a href="mailto:{{ address.email }}">{{ address.email }}</a> or take a look at our <a href="http://github.com/3005hacks">GitHub</a>.</p>
   {% endfor %}
   </div>
 </div>
