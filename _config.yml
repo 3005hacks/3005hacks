@@ -1,4 +1,5 @@
 name: "3005hacks"
+baseurl: /3005hacks
 
 ftp_host: '3005hacks.com'
 ftp_dir: '/var/www/nyctender.com/public_html'
