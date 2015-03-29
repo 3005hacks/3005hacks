@@ -1,0 +1,15 @@
+{% include top.html %}
+
+<body>
+  <div class="container">
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript" src="static/js/jquery.smoothscroll.js"></script>
+  <script>$(function() { $('html').smoothScroll(250); });</script>
+</body>
+</html>
