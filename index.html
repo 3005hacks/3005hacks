@@ -1,22 +1,59 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="landing.css">
-    <link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-    <title>3005 Hacks</title>
+---
+layout: page
+title: 3005hacks
+---
 
-  </head>
+<div class="grid" id="description">
+  <div class="unit span-grid">
+    <p>
+      3005hacks is an effort to find creative avenues to facilitate connection and convenience in everyday life. We hope to offer unique solutions driven by originality, invention, and experimentation.
+    </p>
+  </div>
+</div>
 
-  <body>
-    <header>
-      <h1 class="title">3005 HACKS</h1>
-      <a href="./Tender"><button class="big-button">Tender</button></a>
-      <a href="./about.html"><button class="big-button">About Us</button></a>
-      <a href="http://3005hacks.github.io/squadfinder/index.html"><button class="big-button">Squad Finder</button></a>
-      <div class="landing">
-        <span><p><a href="https://twitter.com/therealdsmart">David Smart</a></p><p><a href="https://twitter.com/Jcbartlett25">Josh Bartlett</a></p><p><a href="https://twitter.com/LarGrief">Lawrence Grief</a></p><span><p><a href="https://twitter.com/sophstad">Sophie Stadler</a></p></span></span>
+<div class="grid" id="projects">
+  <div class="unit span-grid">
+    <h2 class="heading">Projects</h2>
+  </div>
+
+  {% for project in site.data.projects %}
+  <div class="unit one-of-three block">
+    <a href="{{ project.url }}">
+      <div class="block-background">
+        <h3 class="heading">{{ project.name }}</h3>
       </div>
-    </header>
-  </body>
-</html>
+      <img src="{{ project.image }}">
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="grid" id="about">
+  <div class="unit span-grid">
+    <h2 class="heading">About</h2>
+  </div>
+  {% for person in site.data.members %}
+  <div class="unit one-of-three block">
+    <div>
+      <div class="block-background">
+        <ul>
+          <a href="{{ person.twitter }}"><li><i class="fa fa-2x fa-twitter"></i></li></a>
+          <a href="{{ person.linkedin }}"><li><i class="fa fa-2x fa-linkedin-square"></i></li></a>
+        </ul>
+      </div>
+      <img src="{{ person.image }}">
+    </div>
+    <h3 class="heading">{{ person.name }}</h3>
+    <p>{{ person.description }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="grid" id="contact">
+  <div class="unit span-grid">
+  {% for address in site.data.contact %}
+    <h2 class="heading">Contact</h2>
+    <p>Shoot us an email at <a href="mailto:{{ address.email }}">{{ address.email }}</a>.</p>
+  {% endfor %}
+  </div>
+</div>

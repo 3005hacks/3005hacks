@@ -1,0 +1,123 @@
+html,
+body {
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  padding: 0.5rem 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: #b99a54;
+}
+img {
+  max-width: 100%;
+}
+.heading {
+  font-family: 'League Spartan', sans-serif;
+}
+.container {
+  /*border-top: .5rem solid #b99a54;*/
+  margin: 0 auto;
+  padding: 2rem 0;
+  width: 60%;
+}
+.grid {
+  padding: 2rem 0;
+}
+.block a {
+  display: block;
+}
+.block-background {
+  background-color: #b99a54;
+  color: white;
+  opacity: 0;
+  height: 100%;
+  padding-top: 40%;
+  position: absolute;
+  text-align: center;
+  transition: all 0.4s ease;
+  width: 100%;
+  z-index: 99;
+}
+.block-background ul {
+  color: white;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.block-background ul a {
+  display: inline-block;
+}
+.block img {
+  display: block;
+}
+i {
+  color: white;
+}
+.block-background li {
+  display: inline-block;
+  padding: 0.25rem;
+}
+.block:hover .block-background {
+  opacity: 0.85;
+}
+
+/* nav */
+nav {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-bottom: .25rem solid #b99a54;
+  overflow: auto;
+  width: 100%;
+}
+nav .heading {
+  float: left;
+}
+nav ul {
+  font-family: 'League Spartan', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  float: right;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+/* description */
+#description,
+#contact {
+  font-size: 1.25rem;
+}
+
+footer {
+  border-top: .25rem solid #b99a54;
+  padding: 1rem 0;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/leaguespartan-bold.eot');
+    src: url('../fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguespartan-bold.woff2') format('woff2'),
+         url('../fonts/leaguespartan-bold.woff') format('woff'),
+         url('../fonts/leaguespartan-bold.ttf') format('truetype'),
+         url('../fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
