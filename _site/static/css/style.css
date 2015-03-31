@@ -87,6 +87,7 @@ nav .heading {
   float: left;
 }
 nav ul {
+  float: right;
   font-family: 'League Spartan', sans-serif;
   list-style-type: none;
   margin: 0;
@@ -94,8 +95,10 @@ nav ul {
 }
 nav li {
   display: inline-block;
-  float: right;
   padding: 0.5rem 0 0.5rem 1rem;
+}
+nav .grid {
+  padding: 0;
 }
 
 /* description */

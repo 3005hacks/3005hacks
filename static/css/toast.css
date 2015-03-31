@@ -108,4 +108,10 @@ html {
 	html {
 		font-size: 100%;
 	}
+	nav ul {
+  		float: left;
+  	}
+  	nav li {
+  		padding: 0.5rem 1rem 0.5rem 0;
+  	}
 }
