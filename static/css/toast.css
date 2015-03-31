@@ -108,6 +108,9 @@ html {
 	html {
 		font-size: 100%;
 	}
+	.container {
+		width: 85%;
+	}
 	nav ul {
   		float: left;
   	}
