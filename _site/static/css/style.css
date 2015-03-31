@@ -19,6 +19,9 @@ a {
 a:hover {
   color: #b99a54;
 }
+p a {
+  color: #888;
+}
 img {
   max-width: 100%;
 }
