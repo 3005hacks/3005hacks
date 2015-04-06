@@ -112,6 +112,10 @@ nav .grid {
   font-size: 1.25rem;
 }
 
+#about p {
+  margin-bottom: 1.5rem;
+}
+
 footer {
   border-top: .25rem solid #b99a54;
   padding: 1rem 0;
