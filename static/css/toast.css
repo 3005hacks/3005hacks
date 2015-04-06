@@ -55,7 +55,7 @@
   padding-bottom: 1rem;
   /* Clearfix */
   overflow: hidden;
-  *overflow: visible;
+
 }
 
   .unit.demo {
@@ -86,13 +86,13 @@
 @media screen and (max-width: 650px) {
   .grid {
     margin-left: 0;
-    max-width: none;
+    max-width: 100%;
   }
   html {
     font-size: 100%;
   }
   .unit {
-    width: auto;
+    width: 100%;
     margin-left: 0;
     display: block;
   }
