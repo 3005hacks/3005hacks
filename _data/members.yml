@@ -1,26 +1,26 @@
 - name: David Smart
-  description: "David Smart is a first year student at Columbia University studying computer science. He is from Bowling Green, Kentucky and serves as one of 3005hacks' primary front-end developers. David's favorite Kanye West album is Graduation."
+  description: "David is a first year student at Columbia University studying computer science. He is from Bowling Green, Kentucky and serves as one of 3005hacks&rsquo; primary front-end developers. David&rsquo;s favorite Kanye West album is Graduation."
   image: 'static/images/david_hat.jpg'
   twitter: 'http://twitter.com/therealdsmart'
   linkedin: 'https://linkedin.com/in/davidsmart21'
   github: 'https://github.com/therealdsmart'
 
 - name: Sophie Stadler
-  description: "Sophie Stadler is a first year student at Columbia University studying computer science. She is from Randolph, New Jersey and serves as one of 3005hacks' primary front-end developers. Sophie is a master of typography."
+  description: "Sophie is a first year student at Columbia University studying computer science. She is from Randolph, New Jersey and works on design and front-end development at 3005hacks. Sophie is a master of typography."
   image: 'static/images/soph_linked.jpg'
   twitter: 'http://twitter.com/sophstad'
   linkedin: 'https://linkedin.com/in/sophiestadler'
   github: 'https://github.com/sophstad'
 
 - name: Josh Bartlett
-  description: "Josh Bartlett is a first year student at Columbia University studying computer science. He is from Augusta, Georgia and serves as 3005hacks' primary back-end developer. Josh believes the Chicago Cubs will be the next World Series champions."
+  description: "Josh is a first year student at Columbia University studying computer science. He is from Augusta, Georgia and serves as 3005hacks&rsquo; primary back-end developer. Josh believes the Chicago Cubs will be the next World Series champions."
   image: 'static/images/josh_folder.jpg'
   twitter: 'http://twitter.com/jcbartlett25'
   linkedin: 'https://linkedin.com/in/jcbartlett'
   github: 'https://github.com/jcbartlett25'
 
-- name: Larry Grief
-  description: "Lawrence Grief is a first year student at Columbia University studying economics and computer science. He is from Wantagh, New York and manages business operations for 3005hacks, while also contributing to product development. In his free time, he reads books about war and peace."
+- name: Lawrence Grief
+  description: "Lawrence is a first year student at Columbia University studying economics and computer science. He is from Wantagh, New York and manages business operations for 3005hacks, while also contributing to product development. In his free time, he reads books about war and peace."
   image: 'static/images/larry_bruh.jpg'
   twitter: 'http://twitter.com/largrief'
   linkedin: 'https://www.linkedin.com/pub/lawrence-grief/b3/177/41a'
