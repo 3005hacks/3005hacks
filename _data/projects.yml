@@ -1,8 +1,7 @@
-- name: Tender
-  image: 'static/images/tender.png'
-  url: 'http://squadfinder.3005hacks.com'
-
 - name: Squadfinder
   image: 'static/images/squadfinder.png'
-  url: 'http://tender.3005hacks.com'
+  url: 'http://squadfinder.3005hacks.com'
 
+- name: Tender
+  image: 'static/images/tender.png'
+  url: 'http://tender.3005hacks.com'
