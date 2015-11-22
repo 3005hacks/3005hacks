@@ -26,16 +26,16 @@
   linkedin: 'https://www.linkedin.com/pub/lawrence-grief/b3/177/41a'
   github: 'https://github.com/larryslaughter'
 
+- name: Ganesh Ravichandran
+  description: "Ganesh is a sophomore at Columbia University studying computer science. He is from Long Island, New York and is a full stack developer for 3005hacks. Ganesh enjoys eating food and going to the gym."
+  image: 'static/images/ganesh_football.jpg'
+  twitter: 'http://twitter.com/batmanofbutler'
+  linkedin: 'https://www.linkedin.com/in/ganesh-ravichandran-370793a1'
+  github: 'https://github.com/TheBatmanofButler'
+
 - name: Amy Tong
   description: "Amy is a sophomore at Columbia University studying neuroscience and computer science. She is from Basking Ridge, New Jersey and serves as 3005hacks&rsquo; junior product developer. Amy is an avid podcast listener."
   image: 'static/images/amy_bighead.jpg'
   twitter: 'http://twitter.com/amytong96'
   linkedin: 'https://www.linkedin.com/pub/amy-tong/a1/9a8/44a?trk=pub-pbmap'
-  github: 'https://github.com/amytong'
-
-- name: Ganesh Ravichandran
-  description: "Ganesh is a sophomore at Columbia University studing computer science. He is from Long Island, New York and is a full stack developer for 3005hacks. Ganesh enjoys eating food and going to the gym."
-  image: 'static/images/ganesh_football.jpg'
-  twitter: 'http://twitter.com/batmanofbutler'
-  linkedin: 'https://www.linkedin.com/in/ganesh-ravichandran-370793a1'
-  github: 'https://github.com/TheBatmanofButler'
+  github: 'https://github.com/amytong' 
