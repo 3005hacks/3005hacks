@@ -1,11 +1,14 @@
 - name: Trace!
   image: 'static/images/trace.png'
+  alttext: 'Trace screenshot'
   url: 'http://3005hacks.com:3000'
 
 - name: Squadfinder
   image: 'static/images/squadfinder.png'
+  alttext: 'Squadfinder screenshot'
   url: 'http://3005hacks.com/squadfinder'
 
 - name: Tender
   image: 'static/images/tender.png'
+  alttext: 'Tender screenshot'
   url: 'http://3005hacks.com/tender'

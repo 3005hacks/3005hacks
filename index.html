@@ -22,7 +22,7 @@ title: 3005hacks
       <div class="block-background">
         <h3 class="heading">{{ project.name }}</h3>
       </div>
-      <img src="{{ project.image }}">
+      <img src="{{ project.image }}" alt="{{ project.alttext }}">
     </a>
   </div>
   {% endfor %}
@@ -32,6 +32,7 @@ title: 3005hacks
   <div class="unit span-grid">
     <h2 class="heading">About</h2>
   </div>
+
   {% for person in site.data.members %}
   <div class="unit one-of-three block">
     <div>
@@ -42,7 +43,7 @@ title: 3005hacks
           <a href="{{ person.github }}"><li><i class="fa fa-2x fa-github"></i></li></a>
         </ul>
       </div>
-      <img src="{{ person.image }}">
+      <img src="{{ person.image }}" alt="{{ person.alttext }}">
     </div>
     <h3 class="heading">{{ person.name }}</h3>
     <p>{{ person.description }}</p>
@@ -54,7 +55,7 @@ title: 3005hacks
   <div class="unit span-grid">
   {% for address in site.data.contact %}
     <h2 class="heading">Contact</h2>
-    <p>Shoot us an email at <a href="mailto:{{ address.email }}">{{ address.email }}</a> or take a look at our <a href="http://github.com/3005hacks">GitHub</a>.</p>
+    <p>Email us at <a href="mailto:{{ address.email }}">{{ address.email }}</a> or take a look at our <a href="http://github.com/3005hacks">GitHub</a>.</p>
   {% endfor %}
   </div>
 </div>

@@ -1,5 +1,6 @@
 html,
 body {
+  cursor: default;
   font-family: 'PT Serif', serif;
   font-size: 16px;
   line-height: 1.5;
@@ -24,6 +25,15 @@ a:hover {
 p a {
   color: #888;
 }
+
+/* change text highlight color */
+::selection {
+  background: rgba(185, 154, 84, 0.6);
+}
+::-moz-selection {
+  background: rgba(185, 154, 84, 0.6);
+}
+
 img {
   max-width: 100%;
 }
