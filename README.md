@@ -48,10 +48,10 @@ To add a new member, simply create a new block with these parameters. Note that 
 |-- _site/
 |-- static/
     \
-    |-- css
-    |-- fonts
-    |-- images
-    |-- js
+    |-- css/
+    |-- fonts/
+    |-- images/
+    |-- js/
 |-- README.md (This file)
 |-- CNAME
 |-- Gemfile
