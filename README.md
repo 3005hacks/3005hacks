@@ -1,27 +1,6 @@
 # 3005hacks.github.io
 
-This repository houses the homepage of 3005hacks. Check it out live [here](http://3005hacks.com).
-
-## Structure
-```
-|-- _data/ (data that appears in the website)
-    \
-    |-- contact.yml  ()
-    |-- members.yml  ()
-    |-- projects.yml  ()
-|-- _includes/
-    \
-    |-- footer.html
-    |-- header.html
-    |-- scripts.html
-    
-|-- README.md (This file)
-|-- density/
-    \
-    |-- density.py  (the executable for this application)
-    |-- static/     (your static files, such as js, css, imgs)
-    |-- tests/
-```
+This repository houses the homepage of 3005hacks. It runs on [Jekyll](http://jekyllrb.com). Check it out live [here](http://3005hacks.com).
 
 ## Updating the site
 Data, like projects, members, and links, lives in the `_data/` directory. The purpose of this structure is to allow information to be easily updated without having to dive into the raw HTML.
@@ -49,3 +28,34 @@ To add a new member, simply create a new block with these parameters. Note that 
 
 ### `contact.yml`
 `contact.yml` includes links that appear in the contact portion of the website. This file contains the 3005hacks email address and GitHub organization. Any other links that appear in the contact portion should be added here.
+
+## Structure
+```
+|-- _data/ (data that appears in the website)
+    \
+    |-- contact.yml  ()
+    |-- members.yml  ()
+    |-- projects.yml  ()
+|-- _includes/
+    \
+    |-- footer.html
+    |-- header.html
+    |-- scripts.html
+    |-- top.html
+|-- _layouts/
+    \
+    |-- page.html
+|-- _site/
+|-- static/
+    \
+    |-- css
+    |-- fonts
+    |-- images
+    |-- js
+|-- README.md (This file)
+|-- CNAME
+|-- Gemfile
+|-- Gemfile.lock
+|-- _config.yml
+|-- index.html
+```
