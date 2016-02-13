@@ -1,11 +1,3 @@
-- name: David Smart
-  description: "David is a sophomore at Columbia University studying computer science. He is from Bowling Green, Kentucky and serves as one of 3005hacks&rsquo; primary front-end developers. David&rsquo;s favorite Kanye West album is Graduation."
-  image: 'static/images/david_hat.jpg'
-  alttext: 'Picture of David Smart'
-  twitter: 'http://twitter.com/therealdsmart'
-  linkedin: 'https://linkedin.com/in/davidsmart21'
-  github: 'https://github.com/therealdsmart'
-
 - name: Sophie Stadler
   description: "Sophie is a sophomore at Columbia University studying computer science. She is from Randolph, New Jersey and works on design and front-end development at 3005hacks. Sophie is a master of typography."
   image: 'static/images/soph_linked.jpg'
@@ -13,6 +5,14 @@
   twitter: 'http://twitter.com/sophstad'
   linkedin: 'https://linkedin.com/in/sophiestadler'
   github: 'https://github.com/sophstad'
+
+- name: David Smart
+  description: "David is a sophomore at Columbia University studying computer science. He is from Bowling Green, Kentucky and serves as one of 3005hacks&rsquo; primary front-end developers. David&rsquo;s favorite Kanye West album is Graduation."
+  image: 'static/images/david_hat.jpg'
+  alttext: 'Picture of David Smart'
+  twitter: 'http://twitter.com/therealdsmart'
+  linkedin: 'https://linkedin.com/in/davidsmart21'
+  github: 'https://github.com/therealdsmart'
 
 - name: Josh Bartlett
   description: "Josh is a sophomore at Columbia University studying computer science. He is from Augusta, Georgia and serves as 3005hacks&rsquo; primary back-end developer. Josh believes the Chicago Cubs will be the next World Series champions."
