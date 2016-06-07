@@ -1,5 +1,5 @@
 - name: Sophie Stadler
-  description: "Sophie is a sophomore at Columbia University studying computer science. She is from Randolph, New Jersey and works on design and front-end development at 3005hacks. Sophie is a master of typography."
+  description: "Sophie is a junior at Columbia University studying computer science. She is from Randolph, New Jersey and works on design and front-end development at 3005hacks. Sophie is a master of typography."
   image: 'static/images/soph_linked.jpg'
   alttext: 'Picture of Sophie Stadler'
   twitter: 'http://twitter.com/sophstad'
@@ -7,7 +7,7 @@
   github: 'https://github.com/sophstad'
 
 - name: David Smart
-  description: "David is a sophomore at Columbia University studying computer science. He is from Bowling Green, Kentucky and serves as one of 3005hacks&rsquo; primary front-end developers. David&rsquo;s favorite Kanye West album is Graduation."
+  description: "David is a junior at Columbia University studying computer science. He is from Bowling Green, Kentucky and serves as one of 3005hacks&rsquo; primary front-end developers. David&rsquo;s favorite Kanye West album is Graduation."
   image: 'static/images/david_hat.jpg'
   alttext: 'Picture of David Smart'
   twitter: 'http://twitter.com/therealdsmart'
@@ -15,7 +15,7 @@
   github: 'https://github.com/therealdsmart'
 
 - name: Josh Bartlett
-  description: "Josh is a sophomore at Columbia University studying computer science. He is from Augusta, Georgia and serves as 3005hacks&rsquo; primary back-end developer. Josh believes the Chicago Cubs will be the next World Series champions."
+  description: "Josh is a junior at Columbia University studying computer science. He is from Augusta, Georgia and serves as 3005hacks&rsquo; primary back-end developer. Josh believes the Chicago Cubs will be the next World Series champions."
   image: 'static/images/josh_folder.jpg'
   alttext: 'Picture of Josh Bartlett'
   twitter: 'http://twitter.com/jcbartlett25'
@@ -23,7 +23,7 @@
   github: 'https://github.com/jcbartlett25'
 
 - name: Lawrence Grief
-  description: "Lawrence is a sophomore at Columbia University studying economics and computer science. He is from Wantagh, New York and manages business operations for 3005hacks, while also contributing to product development. In his free time, he reads books about war and peace."
+  description: "Lawrence is a junior at Columbia University studying economics and computer science. He is from Wantagh, New York and manages business operations for 3005hacks, while also contributing to product development. In his free time, he reads books about war and peace."
   image: 'static/images/larry_bruh.jpg'
   alttext: 'Picture of Larry Grief'
   twitter: 'http://twitter.com/largrief'
@@ -31,7 +31,7 @@
   github: 'https://github.com/larryslaughter'
 
 - name: Ganesh Ravichandran
-  description: "Ganesh is a sophomore at Columbia University studying computer science. He is from Long Island, New York and is a full stack developer for 3005hacks. Ganesh enjoys eating food and going to the gym."
+  description: "Ganesh is a junior at Columbia University studying computer science. He is from Long Island, New York and is a full stack developer for 3005hacks. Ganesh enjoys eating food and going to the gym."
   image: 'static/images/ganesh_football.jpg'
   alttext: 'Picture of Ganesh Ravichandran'
   twitter: 'http://twitter.com/batmanofbutler'
@@ -39,7 +39,7 @@
   github: 'https://github.com/TheBatmanofButler'
 
 - name: Amy Tong
-  description: "Amy is a sophomore at Columbia University studying neuroscience and computer science. She is from Basking Ridge, New Jersey and serves as 3005hacks&rsquo; junior product developer. Amy is an avid podcast listener."
+  description: "Amy is a junior at Columbia University studying neuroscience and computer science. She is from Basking Ridge, New Jersey and serves as 3005hacks&rsquo; junior product developer. Amy is an avid podcast listener."
   image: 'static/images/amy_bighead.jpg'
   alttext: 'Picture of Amy Tong'
   twitter: 'http://twitter.com/amytong96'
